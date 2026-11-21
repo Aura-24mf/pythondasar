@@ -1,0 +1,15 @@
+## ⚙️ Requirements
+
+* **Python**: `3.8+` (disarankan `3.10+`)
+* **Code Editor**: Visual Studio Code (dengan ekstensi *Python*)
+* **Version Control**: Git
+* **Dependensi Eksternal**: Tidak ada (menggunakan *standard library* bawaan Python)
+* **Virtual Environment & Package Manager**: `venv` dan `pip` (opsional, jika ingin mengisolasi *environment* atau menambah *library* latihan)
+
+### Contoh Instalasi Dependensi (Jika Ada `requirements.txt`)
+
+```bash
+python -m venv .venv
+source .venv/bin/activate   # Linux/macOS
+# .venv\Scripts\Activate.ps1  # Windows PowerShell
+pip install -r requirements.txt
